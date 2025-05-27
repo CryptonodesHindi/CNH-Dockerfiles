@@ -1,4 +1,4 @@
-
+x-service: &service
   image: blockcast/cdn_gateway_go:${IMAGE_VERSION:-stable}
   restart: always
   network_mode: "service:blockcastd"
